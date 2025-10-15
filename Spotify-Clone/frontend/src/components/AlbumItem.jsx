@@ -7,6 +7,7 @@ const AlbumItem = ({image, name, desc, id}) => {
      <img className="rounded" src={image} alt="" />
      <p className="font-bold mt-2 mb-1">{name}</p>
      <p className="text-slate-200 text-sm">{desc}</p>
+     {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo expedita dolor atque delectus distinctio dolorem, impedit eum deleniti debitis itaque labore quidem at quas minus harum vel. Modi, vitae nam?</p> */}
     </div>
   )
 }
